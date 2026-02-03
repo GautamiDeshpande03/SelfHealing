@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<test name="WebTest">
+		<classes>
+			<class name="test.java.tests.TC_AIGPMM_38_001_Test" />
+		</classes>
+	</test>
+</suite>

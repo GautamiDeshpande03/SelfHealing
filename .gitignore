@@ -1,0 +1,24 @@
+# Ignore IDE-specific settings
+.settings/
+
+# Build and dependency artifacts
+target/
+bin/
+
+# Test reports and results
+allure-results/
+extent-reports/
+testReports/
+test-output/
+
+# Maven-specific ignores
+*.log
+*.class
+*.jar
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore README backup files
+README~
