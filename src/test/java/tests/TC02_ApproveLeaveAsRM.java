@@ -43,6 +43,22 @@ public class TC02_approveLeaveAsRM {
         //Assert.assertTrue(leaveApprovalPage.areApproveAndRejectLinksAvailable(), "Approve and Reject links should be available on the first record");
         // Additional steps such as clicking Approve or Reject can be added here if needed
     }
+     @Test(description = "TC03- Approve Lea as RM")
+    public void approveLeaveAsRM1() throws Exception {
+    		Thread.sleep(3000);
+        // Step 1: Login with RM role
+        loginPage.loginAsRM();
+        Thread.sleep(5000);
+        // Step 2: Verify Home page is displayed by checking profile element visibility
+        //Assert.assertTrue(loginPage.isProfileDisplayed(), "Home page profile should be displayed after login");
+        // Step 3: Navigate to My Actions > Team Leaves > Approvals
+        leaveApprovalPage.navigateToTeamLeavesApprovals();
+        // Step 4: Verify Pending Approvals section is displayed
+        Assert.assertTrue(leaveApprovalPage.isPendingApprovalsSectionDisplayed(), "Pending Approvals section should be displayed");
+        // Step 5: Verify Approve and Reject links are available on the first record
+        //Assert.assertTrue(leaveApprovalPage.areApproveAndRejectLinksAvailable(), "Approve and Reject links should be available on the first record");
+        // Additional steps such as clicking Approve or Reject can be added here if needed
+    }
     @AfterMethod
     public void tearDown() {
          DriverSetup.quitDriver();
