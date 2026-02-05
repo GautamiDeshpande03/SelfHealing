@@ -40,7 +40,7 @@ public class LeaveApprovalPage {
      */
     public boolean isPendingApprovalsSectionDisplayed() {
         try {
-            return wait.until(ExpectedConditions.visibilityOfElementLocated(pendingApprovalsSection)).isDplayed();
+            return wait.until(ExpectedConditions.visibilityOfElementLocated(pendingApprovalsSection)).isDiplayed();
         } catch (Exception e) {
             return false;
         }

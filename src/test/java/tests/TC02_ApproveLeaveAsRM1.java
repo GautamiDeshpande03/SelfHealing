@@ -16,7 +16,7 @@ import test.java.setup.DriverSetup;
  * This script performs login as RM, navigates to leave approvals,
  * and verifies the pending approvals and approve/reject links.
  */
-public class TC02_approveLeaveAsRM {
+public class TC02_approveLeaveAsRM1 {
     private WebDriver driver;
     private LoginPage loginPage;
     private LeaveApprovalPage leaveApprovalPage;
