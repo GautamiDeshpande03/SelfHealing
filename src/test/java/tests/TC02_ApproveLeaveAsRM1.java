@@ -25,7 +25,7 @@ public class TC02_ApproveLeaveAsRM1 {
         leaveApprovalPage = new LeaveApprovalPage(driver);
         driver.get("https://qa-wagonhr.mouritech.net");
     }
-    @Test(description = "TC02 - Approve Lea as RM")
+    @Test(description = "TC02 - Approve Leave as RM")
     public void approveLeaveAsRM1() throws Exception {
        	Thread.sleep(3000);
         // Step 1: Login with RM role
