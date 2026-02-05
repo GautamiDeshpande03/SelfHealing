@@ -27,7 +27,7 @@ public class TC02_approveLeaveAsRM {
         leaveApprovalPage = new LeaveApprovalPage(driver);
         driver.get("https://qa-wagonhr.mouritech.net");
     }
-    @Test(description = "TC03- Approve Leave as RM")
+    @Test(description = "TC02- Approve Leave as RM")
     public void approveLeaveAsRM() throws Exception {
     		Thread.sleep(3000);
     

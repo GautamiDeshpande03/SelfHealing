@@ -25,7 +25,7 @@ public class TC03_ApproveLeaveAsEmployee {
         leaveApprovalPage = new LeaveApprovalPage(driver);
         driver.get("https://qa-wagonhr.mouritech.net");
     }
-    @Test(description = "TC02 - Approve Leave as Employee Fail")
+    @Test(description = "TC03 - Approve Leave as Employee Fail")
     public void approveLeaveAsEmployee() throws Exception {
 
     	Thread.sleep(3000);
